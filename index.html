@@ -24,7 +24,34 @@
 	<!-- styles -->
 	<link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<script>
+		// Initialize and add the map
+		function initMap() {
+		  // The location of Uluru
+		  const uluru = { lat: -25.344, lng: 131.036 };
+		  // The map, centered at Uluru
+		  const map = new google.maps.Map(document.getElementById("map"), {
+			zoom: 4,
+			center: uluru,
+		  });
+		  // The marker, positioned at Uluru
+		  const marker = new google.maps.Marker({
+			position: uluru,
+			map: map,
+		  });
+		}
+	  </script>
+  
 </head>
+<style>
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+</style>
 
 <body class="preloader cursor-anim-enable">
 	<!-- preloader-loading start -->
@@ -60,7 +87,7 @@
 		<div class="header-logo js-midnight-color js-headroom">
 			<div class="hidden-box">
 				<a href="index.html" class="header-logo__box js-pointer-large js-animsition-link">
-					<img src="assets/logo/dj.png" style="width:64px;" alt="">
+					<img src="assets/logo/dj.png" style="width:35px;" alt="">
 				</a>
 			</div>
 		</div><!-- logo end -->
@@ -1208,16 +1235,11 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">James Patterson</span>
+										<span class="anim-slide tr-delay-01">Nuestros latidos se adaptan </span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Creative Director</span>
-									</span>
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										La música ayuda a reducir las molestias crónicas de la misma manera que se puede aliviar la  depresión. Cuerpo y alma reaccionan a los estímulos de la música. Incluso nuestros latidos se adaptan en cierto modo al ritmo de la música</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1232,16 +1254,11 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Samuel Phillip</span>
+										<span class="anim-slide tr-delay-01">La música  de Tina Turner</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">UX/UI Designer</span>
-									</span>
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										¿Sabes que la música  de Tina Turner se usa para espantar pájaros en el aeropuerto de Gloucestershire (Reino Unido). Durante todo el día suenan las canciones de la diva del soul como arma disuasoria. Todo un honor.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1256,16 +1273,11 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Diego Lester</span>
+										<span class="anim-slide tr-delay-01">Highway to Hell</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Web Developer</span>
-									</span>
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Año 1989. El dictador panameño, General Noriega, se escuda en el mensaje del Vaticano. Durante dos días el ejercito estadounidense bombardeó al general con canciones de AC/DC como «Highway to Hell«.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1280,16 +1292,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">Repetir en bucle una canción</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Gusano musical, así se conoce al fenómeno de tener en la cabeza todo el tiempo una misma canción. Este fenómeno se produce con mucha frecuencia y cuando uno menos se lo espera, o si no que le pregunten al que se haya pasado toda la Navidad cantando creo que mi padre es un elfo, sí lo  es, sí lo es.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1303,16 +1311,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">La música aumenta la resistencia física</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Los gimnasios silenciosos están condenados al fracaso, ya que la resistencia física de las personas puede llegar a aumentar incluso un 15% si están emitiendo música rock o pop, o con ritmo. Por eso no es de extrañar que la mayoría de las personas recurran a la música como aliada motivacional.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1326,16 +1330,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">La música como aliada para recordar</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										La razón y la memoria tienen una relación muy estrecha con la música, ya que puede ayudaren procesos de razonamiento, recuerdos (de hecho, se utiliza como terapia en enfermedades degenerativas, como el Alzheimer), y gestión de relaciones. El cerebro asocia momentos a canciones y eso es clave a la hora de recordar.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1349,16 +1349,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">Música para el cuerpo</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										La música es pura adrenalina para el cuerpo. Al igual que es bueno entrenar físicamente con música, al escucharla el cuerpo libera dopamina, la misma hormona que se libera en el cerebro con las actividades más excitantes o placenteras.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1372,16 +1368,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">La música da sed</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Otra de las peculiaridades de la música es que si la música está muy alta, el cuerpo reacciona necesitando beber líquido mucho más rápido de lo habitual. Por eso no resulta extraño que las discotecas y bares de copas tengan el volumen tan sumamente altos.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1395,16 +1387,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">Todo un jardinero</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Pero no sólo las personas obtienen beneficios de la música, también las flores y las plantas. Éstas crecen más rápido y son capaces de sanar de enfermedades con más facilidad si se les habla, pero también si hay música cerca.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1418,16 +1406,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">Mejora la comunicación verbal</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Hay que destacar que la música también influye en el arte de la oratoria. Si tocas algún instrumento, estás invirtiendo también en mejorar tu comunicación verbal.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1441,16 +1425,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">La música dibuja impresiones</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										La forma en la que concebimos el mundo depende en gran manera de la música que escuchamos. Además, condiciona la forma de relacionarnos, de vestir, incluso también nuestras aspiraciones.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1464,16 +1444,12 @@
 								</div>
 								<div class="text-center margin-top-20 js-scrollanim">
 									<h4 class="headline-xxxs hidden-box">
-										<span class="anim-slide tr-delay-01">Janet Paquette</span>
+										<span class="anim-slide tr-delay-01">El cerebro trabaja más y mejor si hay música</span>
 									</h4>
-									<span class="subhead-xxs text-color-b0b0b0 d-block hidden-box margin-top-5">
-										<span class="anim-slide tr-delay-02">Graphic Designer</span>
-									</span>
+									
 									<p
 										class="body-text-xs text-color-dadada margin-top-20 anim-text-reveal tr-delay-03">
-										Pinterest lumbersexual forage chillwave godard pitchfork vexillologist deep v
-										chia truffaut four dollar toast food truck meditation. Hot chicken coloring book
-										cliche YOLO, crucifix kale.</p>
+										Escuchar música es de las únicas actividades que obliga a que el cerebro haga trabajar todas sus partes y hemisferios. Incluso, hay géneros musicales que hacen que estimule esas zonas con más profundidad que otras, como es el caso del jazz.</p>
 								</div>
 							</div>
 						</div><!-- column end -->
@@ -1482,7 +1458,35 @@
 			</div><!-- pos-rel end -->
 		</section><!-- team end -->
 
+		<!-- about us start -->
+		<section id="down" class="lines-section pos-rel section-bg-dark-1">
+			<!-- lines-container start -->
+			<div class="lines-container pos-rel flex-min-height-100vh border-box-bottom">
+				<!-- padding-top-bottom-120 start -->
+				<div class="padding-top-bottom-120 width-100perc">
+					<!-- title start -->
+					<h2 class="headline-xxl text-center js-scrollanim">
+						<span class="hidden-box d-block">
+							<span class="anim-slide">
+								Practicas <span class="text-color-red">Videos</span>
+							</span>
+						</span>
+					</h2><!-- title end -->
+				</div><!-- padding-top-bottom-120 end -->
+			</div><!-- lines-container end -->
+		</section><!-- about us end -->
 
+		<!-- video content start -->
+		<div class="lines-section pos-rel bg-img-cover height-100vh" style="margin-bottom: 15px;"
+			style="background-image:url(assets/images/projects/laptop/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg)">
+			<!-- bg-overlay -->
+			<div class="bg-overlay-black"></div>
+			<div class="lines-container pos-rel no-lines height-100perc border-box-bottom">
+				<a href="https://www.youtube.com/watch?v=3Au5eyTi2-U" class="play-button js-popup-youtube js-pointer-large">
+					<span class="play-button__inner"></span>
+				</a>
+			</div>
+		</div><!-- video content end -->
 
 		<!-- video content start -->
 		<div class="lines-section pos-rel bg-img-cover height-100vh"
@@ -1490,8 +1494,7 @@
 			<!-- bg-overlay -->
 			<div class="bg-overlay-black"></div>
 			<div class="lines-container pos-rel no-lines height-100perc border-box-bottom">
-				<a href="https://www.youtube.com/watch?v=uYOaZQyKz50"
-					class="play-button js-popup-youtube js-pointer-large">
+				<a href="https://www.youtube.com/watch?v=uYOaZQyKz50" class="play-button js-popup-youtube js-pointer-large">
 					<span class="play-button__inner"></span>
 				</a>
 			</div>
@@ -1499,19 +1502,29 @@
 
 
 
+		<!-- about us start -->
+		<section id="down" class="lines-section pos-rel section-bg-dark-1">
+			<!-- lines-container start -->
+			<div class="lines-container pos-rel flex-min-height-100vh border-box-bottom">
+				<!-- padding-top-bottom-120 start -->
+				<div class="padding-top-bottom-120 width-100perc">
+					<!-- title start -->
+					<h2 class="headline-xxl text-center js-scrollanim">
+						<span class="hidden-box d-block">
+							<span class="anim-slide">
+								Mapa
+							</span>
+						</span>
+					</h2><!-- title end -->
+				</div><!-- padding-top-bottom-120 end -->
+				<div id="map"></div>
+			</div><!-- lines-container end -->
+		</section><!-- about us end -->
 
-		<!-- video content start -->
-		<div class="lines-section pos-rel bg-img-cover height-100vh"
-			style="background-image:url(assets/images/projects/laptop/semi-opened-laptop-computer-turned-on-on-table-2047905.jpg)">
-			<!-- bg-overlay -->
-			<div class="bg-overlay-black"></div>
-			<div class="lines-container pos-rel no-lines height-100perc border-box-bottom">
-				<a href="https://www.youtube.com/watch?v=3Au5eyTi2-U"
-					class="play-button js-popup-youtube js-pointer-large">
-					<span class="play-button__inner"></span>
-				</a>
-			</div>
-		</div><!-- video content end -->
+
+
+
+		
 
 
 
@@ -1612,6 +1625,11 @@
 	<script src="assets/js/footer-reveal.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/footer-reveal_init.js"></script>
+	<script
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4VlU_9_JIuF1XqeMPtn5eUkXyRRuXvRY&callback=initMap&libraries=&v=weekly"
+	async
+  ></script>
+
 </body>
 
 </html>
